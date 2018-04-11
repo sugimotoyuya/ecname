@@ -1,0 +1,70 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+nav{
+	width: 100%;
+	height: 45px;
+	background: #D64534;
+}
+
+#nav_wrap{
+	display: flex;
+	width: 960px;
+	height: 45px;
+	margin: 0 auto;
+}
+
+nav a{
+	display: block;
+	width: 100px;
+	height: 45px;
+	border-right: 1px solid #fff;
+	text-align: center;
+	line-height: 45px;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+#content{
+	width: 960px;
+	margin: 20px auto 0px auto;
+	display: flex;
+}
+#main{
+	width: 710px;
+	margin-right: 10px;
+}
+#side{
+	width: 200px;
+}
+
+/*スライダーのスタイル*/
+.wrap_slider{
+	width: 710px;
+	height: 350px;
+	overflow: hidden;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	height: 350px;
+	padding: 5px;
+	border: 1px solid #888;
+	display: flex;
+}
+.slider li{
+	width: 698px;
+	height: 350px;
+	margin-right: 5px;
+}
+
+.slider li img{
+	width: 698px;
+	height: 350px;
+	object-fit: cover;
+}
